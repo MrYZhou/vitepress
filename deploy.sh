@@ -17,13 +17,13 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:MrYZhou/MrYZhou.github.io.git master
+#git push -f git@github.com:MrYZhou/MrYZhou.github.io.git master
 
 #gitee
 #git push -f git@gitee.com:lgpr/lgpr.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+git push -f git@github.com:MrYZhou/vitepress.git main:gh-pages
 # git push -f git@gitee.com:lgpr/vitepress.git master:develop
 
 cd -
