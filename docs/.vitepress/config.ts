@@ -4,7 +4,7 @@ import { ThemeConfig } from "../configs/themeConfig.ts";
 const base = process.env.BASE || "/vitepress";
 
 export default defineConfig({
-  title: "larry",
+  title: "Larry",
   description: "Life is short, Keep it simple.",
   head: [["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }]],
   // 部署路径
