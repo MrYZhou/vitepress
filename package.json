@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev web_docs --port=3001",
-    "build": "vitepress build web_docs",
-    "serve": "vitepress serve web_docs",
-    "deploy":"./web_docs/deploy.sh"
+    "dev": "vitepress dev docs --port=3001",
+    "build": "vitepress build docs"
   },
   "keywords": [],
   "author": "",
