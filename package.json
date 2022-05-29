@@ -1,0 +1,24 @@
+{
+  "name": "vitepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev web_docs --port=3001",
+    "build": "vitepress build web_docs",
+    "serve": "vitepress serve web_docs",
+    "deploy":"./web_docs/deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.52.1",
+    "vitepress": "^0.22.4",
+    "vitepress-theme-demoblock": "1.4.2"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.1.4",
+    "element-plus": "^2.2.2"
+  }
+}
