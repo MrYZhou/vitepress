@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 import { ThemeConfig } from "../configs/themeConfig.ts";
 
-const base = process.env.BASE || "/";
+const base = process.env.BASE || "/vitepress";
 
 export default defineConfig({
   title: "larry",
